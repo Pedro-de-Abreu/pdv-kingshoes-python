@@ -1,0 +1,14 @@
+# Ignorar a pasta pesada de compilação e o aplicativo
+build/
+*.apk
+
+# Ignorar chaves de segurança (O SALVA-VIDAS)
+credenciais.json
+
+# Ignorar o banco de dados local
+catalogo.json
+vendas.json
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
